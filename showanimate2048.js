@@ -5,7 +5,7 @@ function showNumberWithAnimation(i,j,r) {
     var numberCell=$('#number-cell-'+i+"-"+j);
     numberCell.css('background-color',getNumberBackgroungColor(r));
     numberCell.css('color',getNumberColor(r));
-    if(r==2048||r==4096){
+    if(r==1024||r==2048||r==4096){
         numberCell.css('font-size',0.3*cellWidth+'px');
     }
     numberCell.text(r);
